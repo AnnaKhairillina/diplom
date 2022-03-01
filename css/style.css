@@ -297,7 +297,6 @@ h1, h2, h3, p, a, span {
   
 }
 .new_card__descr {
-  background-color: #fff;
   padding:  0 40px;
   text-align: center;
 }
@@ -324,10 +323,12 @@ h1, h2, h3, p, a, span {
   margin-bottom: 30px;
 }
 .new_card__big-descr {
-  background-color: #fff;
   padding:  0 40px;
   text-align: center;
   padding-bottom: 15px;
+}
+.new_card__big:hover {
+  background-color: #FCEAE8;
 }
 
 /*end new*/
@@ -360,6 +361,9 @@ h1, h2, h3, p, a, span {
 }
 .feedback__descr {
   font-style: italic;
+}
+.slick-prev:before, .slick-next:before {
+  color: #000;
 }
 /*end feedback*/
 .last-chance {
@@ -435,6 +439,7 @@ h1, h2, h3, p, a, span {
   cursor: pointer;
   background-color: white;
   margin-top: 25px;
+  border-top: 4px solid white;
 }
 .last-chance_products-item p {
  font-family: 'Open Sans'; 
@@ -471,9 +476,6 @@ h1, h2, h3, p, a, span {
   font-size: 16px;
   padding: 18px 66px;
   border: none;
-}
-.last-chance_products-item:last-child{
-  margin-right: 0;
 }
 .last-chance_products-item:hover {
   border-top: 4px solid black;
@@ -545,130 +547,3 @@ hr {
   width: 1162px;
   border: 1px solid #00000033
 }
-@media (max-width: 1439px) {
-  .container {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .page-header__wrapper::before {
-    background-color: white;
-  }
-  .main-screen::before {
-    background-color: white;
-  }
-  .product--slider .product__info h2 {
-    margin: 80px 0 25px;
-    font-size: 50px;
-    line-height: 83px;
-  }
-  product--slider .product__info p span:nth-child(2) {
-    font-size: 25px;
-  }
-  .product--slider .product__button {
-    padding: 12px;
-    width: 200px;
-  }
-  .new_card__big {
-    width: 400px;
-    height: 410px;
-  }
-  .new_card__big img {
-    width: 400px;
-    height: 410px;
-    padding: 0;
-    margin-bottom: -3px;
-  }
-  .last-chance_products-item {
-    width: 180px;
-  }
-  .last-chance_products-item img {
-    width: 180px;
-  }
-  .page-footer__site-nav {
-    margin-left: 500px;
-  }
-  .footer_site-nav__list {
-    width: 450px;
-  }
-  .no-scroll {
-    overflow: hidden;
-  }
-}
-@media (max-width: 1024px) {
-  .container {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .page-header__wrapper::before {
-    background-color: white;
-  }
-  .main-screen::before {
-    background-color: white;
-  }
-  .product--slider .product__info h2 {
-    margin: 80px 0 25px;
-    font-size: 42px;
-  }
-  product--slider .product__info p span:nth-child(2) {
-    font-size: 25px;
-  }
-  .product--slider .product__button {
-    padding: 12px;
-    width: 200px;
-  }
-  .last-chance_products-item button {
-    width: 180px;
-  }
-  .new_card__big {
-    width: 270px;
-    height: 289px;
-  }
-  .new_card__big img {
-    width: 200px;
-    height: 170px;
-    padding: 0;
-    margin-bottom: -3px;
-    padding-left: 30px;
-  }
-  .last-chance_products-item {
-    width: 180px;
-  }
-  .last-chance_products-item img {
-    width: 180px;
-  }
-  .footer_site-nav__list {
-    width: 410px;
-  }
-  .no-scroll {
-    overflow: hidden;
-  }
-}
-@media (max-width: 767px) {
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
-    max-width: 768px;
-  }
-  .new_card__big {
-    width: 270px;
-    height: 289px;
-  }
-  .new_card__big img {
-    width: 200px;
-    height: 170px;
-    padding: 0;
-    margin-bottom: -3px;
-    padding-left: 30px;
-  }
-  .product--slider .product__info h2 {
-    margin: 80px 0 25px;
-    font-size: 40px;
-  }
-  .no-scroll {
-    overflow: hidden;
-  }
-}
-
-
-
-
