@@ -286,9 +286,7 @@ h1, h2, h3, p, a, span {
   margin-bottom: 37px;
   cursor: pointer;
 }
-.new_card:hover {
-  background-color: #FCEAE8;
-}
+
 .new_card img {
   width: 200px;
   height: 170px;
@@ -327,9 +325,7 @@ h1, h2, h3, p, a, span {
   text-align: center;
   padding-bottom: 15px;
 }
-.new_card__big:hover {
-  background-color: #FCEAE8;
-}
+
 
 /*end new*/
 .feedback {
