@@ -80,6 +80,7 @@
 .slick-prev
 {
     left: -25px;
+    color: #000;
 }
 [dir='rtl'] .slick-prev
 {

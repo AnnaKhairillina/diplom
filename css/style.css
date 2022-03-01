@@ -335,11 +335,11 @@ h1, h2, h3, p, a, span {
 .feedback {
   padding: 100px 0 130px 0;
 }
-.feedback__container {
+.feedback__slider {
   width: 653px;
   margin: 0 auto;
 }
-.feedback__container img {
+.feedback__slider img {
   display: block;
   margin-left: auto;
   margin-right: auto;
